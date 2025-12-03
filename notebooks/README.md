@@ -16,38 +16,37 @@
 - **预测能力**: 未来7天购买量预测准确率 291.8%
 
 ## 🗂️ 项目结构
-电商用户行为分析/
-├── data/ # 数据目录
-│ ├── UserBehavior.csv/ # 原始数据
-│ └── processed/ # 处理后的数据
-├── notebooks/ # 分析Notebooks
-│ ├── 导入和设置.ipynb
-│ ├── 用户行为深度分析.ipynb
-│ ├── 商品分析与推荐策略.ipynb
-│ ├── 时间序列分析与预测模型.ipynb
-│ └── 项目整合与综合报告.ipynb
-├── src/ # 源代码
-│ ├── data_loader.py # 数据加载
-| ├── config.py # 路径配置
-│ ├── data_cleaner.py # 数据清洗
-│ ├── analyzer.py # 分析模块
-│ ├── visualizer.py # 可视化
-│ ├── funnel_analyzer.py # 转化漏斗
-│ ├── retention_analyzer.py # 留存分析
-│ ├── value_analyzer.py # 用户价值
-│ ├── product_analyzer.py # 商品分析
-│ ├── recommender.py # 推荐系统
-│ ├── time_series_analyzer.py # 时间序列
-│ ├── predictive_model.py # 预测模型
-│ ├── project_integrator.py # 项目整合
-│ └── documentation_generator.py # 文档生成
-└── reports/ # 报告输出
-  ├── figures/ # 图表文件
-  ├── analysis_reports/ # 分析报告
-  └── final_reports/ # 最终报告
-
-
-text
+- 电商用户行为分析/
+  - data/ # 数据目录
+    - raw/ # 原始数据
+    - processed/ # 处理后的数据
+  - notebooks/ # 分析Notebooks
+    - 01_数据加载与验证.ipynb
+    - 03_用户行为深度分析.ipynb
+    - 04_商品分析与推荐策略.ipynb
+    - 05_时间序列分析与预测模型.ipynb
+    - 06_项目整合与综合报告.ipynb
+  - src/ # 源代码
+    - data_loader.py # 数据加载
+    - data_cleaner.py # 数据清洗
+    - analyzer.py # 分析模块
+    - visualizer.py # 可视化
+    - funnel_analyzer.py # 转化漏斗
+    - retention_analyzer.py # 留存分析
+    - value_analyzer.py # 用户价值
+    - product_analyzer.py # 商品分析
+    - recommender.py # 推荐系统
+    - time_series_analyzer.py # 时间序列
+    - predictive_model.py # 预测模型
+    - project_integrator.py # 项目整合
+    - documentation_generator.py # 文档生成
+  - reports/ # 报告输出
+    - figures/ # 图表文件
+    - analysis_reports/ # 分析报告
+    - final_reports/ # 最终报告
+  - config/ # 配置
+    - paths.py # 路径配置
+  - requirements.txt # 依赖包
 
 ## 🚀 快速开始
 
